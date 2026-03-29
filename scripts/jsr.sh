@@ -1,5 +1,5 @@
 #!/bin/sh
-set -xeuo pipefail
+set -xeu
 export TARGET=jsr
 export JSR_NAME=@sn/automap
 rm dist --recursive --force

@@ -1,5 +1,5 @@
 #!/bin/sh
-set -xeuo pipefail
+set -xeu
 export TARGET=npm
 rm -rf dist
 ./rolldown.config.js
